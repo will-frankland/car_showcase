@@ -9,9 +9,10 @@ interface CarCardProps {
 }
 
 const CarCard = ({ car }: CarCardProps) => {
+  const { city_mpg, year, make, model, transmission, drive } = car;
   return (
-    <div>
-      Car Card
+    <div className="car-card group">
+      
     </div>
   )
 }

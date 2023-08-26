@@ -4,11 +4,14 @@ import Image from 'next/image';
 import { useState, Fragment } from 'react';
 
 import { Combobox, Transition } from '@headlessui/react'
+import { manufacturers } from '@/constants';
 import { SearchManfacturerProps } from '@/types'
 
 const SearchManufacturer = ({ manufacturer, setManufacturer } : SearchManfacturerProps) => {
   
   const [query, setQuery] = useState('');
+
+
 
   return (
     <div className='search-manufacturer'>
@@ -35,9 +38,10 @@ const SearchManufacturer = ({ manufacturer, setManufacturer } : SearchManfacture
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
             afterLeave={() => setQuery('')}
-
           >
+            <Combobox.Options>
 
+            </Combobox.Options>
           </Transition>
         </div>
       </Combobox>

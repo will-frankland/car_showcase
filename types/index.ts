@@ -24,5 +24,5 @@ export interface CarProps {
   make: string;
   model: string;
   transmission: string;
-  year: number;
+  year: number; 
 }

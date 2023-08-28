@@ -92,6 +92,17 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
                       </div>
                     </div>
                   </div>
+                  <div className="flex-1 flex flex-col gap-2">
+                    <h2
+                      className="font-semibpold text-xl capitalize"
+                    >
+                      {car.make} {car.model}
+                    </h2>
+                    <div className="mt-3 flex flex-wrap gap-4">
+
+                    </div>
+
+                  </div>
                 </Dialog.Panel>
               </Transition.Child>
             </div>

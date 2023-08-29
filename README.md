@@ -25,10 +25,11 @@ https://car-showcase-mpmq-4l40y4xlk-will-frankland.vercel.app/?model=m3&manufact
 - CSS
 
 ## Screenshots
+docs/Filtered_car.png
 
-!["Screenshot of Homepage"]()
-!["Screenshot of Filtered Car"]()
-!["Screenshot of Car Modal"]()
+!["Screenshot of Homepage"](https://github.com/will-frankland/car_showcase/blob/main/docs/Landing_Section.png?raw=true)
+!["Screenshot of Filtered Car"](docs/Filtered_car.png)
+!["Screenshot of Car Info Modal"](https://github.com/will-frankland/car_showcase/blob/main/docs/modal.png?raw=true)
 
 
 ## Dependencies

@@ -1,6 +1,6 @@
 ## About this app
 
-This app is a car rental website that utilizes API calls to gather car information such as make, model, fuel type, AWD/FWD/RWD data, MPG and transmission type.
+This app is a car rental website that utilizes API calls to gather car information such as make, model, fuel type, AWD/FWD/RWD data, MPG and transmission type and they display it as an easy to read list.
 
 It was built using NextJs, TypeScript, TailwindCSS, HeadlessUI and displays a variety of different components such as search functionality, filtering by year and fuel type, pagination and utilizing a modal to display additional car information.
 

@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About this app
 
-## Getting Started
+This app is a car rental website that utilizes API calls to gather car information such as make, model, fuel type, AWD/FWD/RWD data, MPG and transmission type.
 
-First, run the development server:
+It was built using NextJs, TypeScript, TailwindCSS, HeadlessUI and displays a variety of different components such as search functionality, filtering by year and fuel type, pagination and utilizing a modal to display additional car information.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Functionality & Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The site is fully adjustable for screen sizes ranging from mobile to desktop.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+I followed a tutorial created by JavaScriptMastery to become more proficient with TypeScript and NextJs, learn more key principles and best practices in order to expand my portfolio.
 
-## Learn More
+The CarHub app has been deployed on Vercel can be viewed here:
 
-To learn more about Next.js, take a look at the following resources:
+https://car-showcase-mpmq-4l40y4xlk-will-frankland.vercel.app/?model=m3&manufacturer=bmw
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- NextJs
+- TypeScript
+- TailwindCSS
+- HeadlessUI
+- HTML
+- CSS
 
-## Deploy on Vercel
+## Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+!["Screenshot of Homepage"]()
+!["Screenshot of Filtered Car"]()
+!["Screenshot of Car Modal"]()
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Dependencies
+
+- HeadlessUI
+
+# Getting Started
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm  i`
+### `npm  run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
